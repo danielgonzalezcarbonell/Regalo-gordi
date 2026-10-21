@@ -5,7 +5,7 @@
 <meta name="viewport" content="width=device-width, initial-scale=1">
 <meta name="theme-color" content="#10172b">
 <meta name="description" content="Una misión secreta de cumpleaños.">
-<title>La misión de la Navidad ✨</title>
+<title> Misión de la Navidad ✨</title>
 <style>
 :root{--bg:#0d1427;--panel:#151f38;--gold:#f3cf83;--cream:#fff8e9;--muted:#c4cbe0;--pink:#f4a9c2}
 *{box-sizing:border-box}
@@ -41,8 +41,8 @@ button:hover{transform:translateY(-2px);filter:brightness(1.08)}
   <section class="card" id="story" aria-live="polite">
     <div class="eyebrow">Una sorpresa de cumpleaños</div>
     <div class="ornament">✦</div>
-    <h1>La misión de la Navidad</h1>
-    <p>Feliz cumpleaños, mi amor. Este año tu regalo no empieza con un lazo, sino con un secreto. Hay cuatro pistas entre tú y la sorpresa que he preparado para nosotros.</p>
+    <h1> Misión de la Navidad</h1>
+    <p>Feliz cumpleaños, mi amor. Este año tu regalo no empieza con un envoltorio, sino con un pequeño scape room. Hay cuatro pistas entre tú y la sorpresa que he preparado para nosotros.</p>
     <p>Respira hondo, sigue las señales y descubre nuestro próximo recuerdo.</p>
     <button class="primary" onclick="startStory()">Aceptar la misión ✨</button>
     <p class="small">Una pequeña aventura creada especialmente para ti.</p>
@@ -72,7 +72,7 @@ function answer(index){
 }
 function revealGift(){
  document.getElementById("bar").style.width="100%";
- document.getElementById("story").innerHTML=`<div class="eyebrow">Misión completada · Regalo desbloqueado</div><div class="ornament">🎄✨❤️</div><h1 class="final-title">¡Nos vamos a Madrid!</h1><p>Mi amor, prepara una bufanda, abrígate bien y guarda un poquito de ilusión… porque quiero compartir contigo una escapada para pasear juntos y ver las luces de Navidad de Madrid.</p><p>Quiero verte sonreír bajo las luces, perdernos entre calles bonitas y crear un recuerdo que sea solo nuestro.</p><h2>Feliz cumpleaños ❤️</h2><p>Mi regalo es esta aventura contigo. Y lo mejor todavía está por venir.</p><p class="small">Con todo mi cariño, de parte de quien está deseando vivirlo contigo.</p><button class="primary" onclick="celebrate()">Volver a leer el final ✨</button>`;
+ document.getElementById("story").innerHTML=`<div class="eyebrow">Misión completada · Regalo desbloqueado</div><div class="ornament">🎄✨❤️</div><h1 class="final-title">¡Nos vamos a Madrid!</h1><p> Mi gordi, prepara tu mejor outfit, tu mejor sonrisa y guarda un poquito de ilusión… porque quiero compartir contigo una escapada para pasear juntos y ver las luces de Navidad de Madrid.</p><p>Quiero verte sonreír bajo las luces, vivir una nueva aventura contigo y recordar ese día toda la vida.</p><h2>Feliz cumpleaños pececillo, te amo infinito mivida 💗</h2><p>Mi regalo es esta aventura contigo. No hay nadie que se merezca vivir sus deseos mas que tu gorda.</p><p class="small">Con todo mi cariño, de parte de quien está deseando vivirlo contigo.</p><button class="primary" onclick="celebrate()">Volver a leer el final ✨</button>`;
 }
 function celebrate(){document.getElementById("story").classList.remove("hidden");document.querySelector(".ornament").textContent="🎄✨❤️"}
 </script>
